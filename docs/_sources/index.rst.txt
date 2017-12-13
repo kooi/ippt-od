@@ -9,9 +9,7 @@ Inhoudsopgave
 
    1-introductie/toctree.rst
    2-herhaling/toctree.rst
-   functions/toctree.rst
-   parameters/toctree.rst
-   counters/toctree.rst
-   vars-io/toctree.rst
-   conditionals/toctree.rst
-   interactivity/toctree.rst
+   3-functions/toctree.rst
+   4-parameters/toctree.rst
+   5-unittest/toctree.rst
+   6-extra/toctree.rst

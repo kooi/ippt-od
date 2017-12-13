@@ -16,4 +16,4 @@ Nu we tina hebben gemaakt is het tijd om tina wat te laten doen. Met de opdracht
    tina.forward(100)
 
 
-Je kunt tina natuurlijk ook achteruit laten lopen door ``tina.backward'' te gebruiken (i.p.v. ``tina.forward''). Pas de voorbeeldcode zo aan dat tina nu 100 stappen achteruit loopt.
+Je kunt tina natuurlijk ook achteruit laten lopen door ``tina.backward`` te gebruiken (i.p.v. ``tina.forward``). Pas de voorbeeldcode zo aan dat tina nu 100 stappen achteruit loopt.

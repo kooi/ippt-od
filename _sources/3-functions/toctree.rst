@@ -6,5 +6,4 @@ Functies
    :maxdepth: 2
 
    Functies.rst
-   Oefenopdrachten(1).rst
-   Inleveropdrachten.rst
+   Opdracht.rst

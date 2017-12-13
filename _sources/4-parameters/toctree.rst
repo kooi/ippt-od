@@ -6,7 +6,6 @@ Functies met parameters
    :maxdepth: 2
 
    FunctiesMetEenParameter.rst
-   Oefenopdrachten(1).rst
+   Opdracht1.rst
    FunctiesMetMeerdereParameters.rst
-   Oefenopdrachten(2).rst
-   Inleveropdrachten.rst
+   Opdracht2.rst
