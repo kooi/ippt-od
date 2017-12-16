@@ -2,7 +2,7 @@ Functies
 ::::::::
 
 .. toctree::
-   :caption: Iteration
+   :caption: Functies
    :maxdepth: 2
 
    Functies.rst

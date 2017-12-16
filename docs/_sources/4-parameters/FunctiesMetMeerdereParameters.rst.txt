@@ -1,6 +1,8 @@
 Functies met meerdere parameters
 ::::::::::::::::::::::::::::::::
 
+Ander voorbeeld, eentje zonder kleuren, misschien met aantallen?
+
 Als je een functie maakt, waar je een getal (of iets anders) aan kan meegeven, dan noem je dat een functie met een parameter. Dus de functie tekenhuis hiervoor had een parameter genaamd ``lengte``.
 Hoe kun je er nou voor zorgen dat jouw functie ook meer dan één parameter kan gebruiken? Het antwoord is vrij eenvoudig: door voor de tweede een andere naam te verzinnen en dat vervolgens te gebruiken.
 

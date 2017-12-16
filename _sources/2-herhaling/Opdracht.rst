@@ -1,5 +1,5 @@
-Samenvatting commando's tekenen
-:::::::::::::::::::::::::::::::
+Samenvatting herhaling
+----------------------
 
 ``tina.forward(<afstand>)``
   beweeg tina <afstand> stappen naar voren

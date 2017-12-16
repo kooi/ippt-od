@@ -1,9 +1,5 @@
-Oefenopdrachten (1)
-:::::::::::::::::::::::::::
-
-
-1. vierkant()
--------------
+Opdracht: Vierkant
+::::::::::::::::::
 
 Maak een functie vierkant waarin je tussen de haakjes kan aangeven hoe groot het vierkant moet zijn. Je moet de functie dus als het volgt kunnen gebruiken:
 

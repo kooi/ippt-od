@@ -1,6 +1,9 @@
 Functies met een parameter
 ::::::::::::::::::::::::::
 
+Moet korter...
+
+
 Hieronder staan een tweetal functies, ``tekenhuis()`` en ``tekenhuis2()``. ``tekenhuis()`` is een functie waarmee je een klein huisje kan maken met zijden van 50 pixels ``tekenhuis2()`` een functie waarmee je een groter huisje kan maken met zijden van 75 pixels.
 
 .. activecode:: vb-parameters-tekenhuis2

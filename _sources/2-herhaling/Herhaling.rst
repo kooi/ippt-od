@@ -1,9 +1,9 @@
-Herhaling (iteration)
-:::::::::::::::::::::
+Herhaling
+:::::::::
 
 Je hebt als het goed is net een programma gemaakt waarmee je tina een vierkant laat tekenen; dat zag er waarschijnlijk ongeveer als volgt uit:
 
-.. activecode:: vb-iteration-square
+.. activecode:: vb-od-square
    :caption: Een vierkant met zijde 100
    :nocodelens:
    :language: python

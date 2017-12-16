@@ -1,30 +1,5 @@
-Inleveropdrachten
-:::::::::::::::::
-
-opg-parameters-envelop
-----------------------
-
-Maak een functie ``envelop()`` die de parameter lengte moet meekrijgen. De aanroep ``envelop(50)`` zal dan het volgende plaatje tekenen:
-
-.. image:: images/envelop.png
-
-.. activecode:: opg-functions-enevelop
-   :caption: envelop()
-   :nocodelens:
-   :language: python
-
-   import turtle
-   tina = turtle.Turtle()
-   tina.shape("turtle")
-   tina.speed(10)
-
-   # definitie van de functie envelop() hier invullen
-
-   envelop(50)
-
-
-opg-parameters-sneeuwvlok
--------------------------
+Challenge 1: Een sneeuwvlok
+:::::::::::::::::::::::::::
 
 Een sneeuwvlokje kun je maken door een paar parallellogrammen aan te plakken. Zie bijvoorbeeld:
 
