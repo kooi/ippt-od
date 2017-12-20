@@ -1,7 +1,7 @@
 Draaien
 :::::::
 
-Als we ergens naartoe willen gaan dan kunnen we natuurlijk niet alleen voor- of achteruit, dan zullen we ook moeten draaien. Je kunt tina vertellen om naar rechts te draaien met het commando ``tina.right()''. Je geeft dan tussen haakjes aan hoeveel *graden* je wilt draaien.
+Als we ergens naartoe willen gaan dan kunnen we natuurlijk niet alleen voor- of achteruit, dan zullen we ook moeten draaien. Je kunt tina vertellen om naar rechts te draaien met het commando ``tina.right()``. Je geeft dan tussen haakjes aan hoeveel *graden* je wilt draaien.
 
 Een heel rondje is 360 graden, dus als je een kwartslag naar rechts wilt gebruik je ``tina.right(90)``.
 
