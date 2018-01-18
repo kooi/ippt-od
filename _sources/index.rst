@@ -18,13 +18,7 @@ Inhoudsopgave
    3-functions/Opdracht.rst
    4-parameters/FunctiesMetEenParameter.rst
    4-parameters/Opdracht1.rst
-   5-unittest/UnitTest.rst
-   6-extra/ThonnyInstalleren.rst
-   6-extra/ExtraOpdracht1.rst
-   6-extra/ExtraOpdracht2.rst
-   6-extra/ExtraOpdracht3.rst
-
-
-
-..    4-parameters/FunctiesMetMeerdereParameters.rst
-..   4-parameters/Opdracht2.rst
+   5-extra/ThonnyInstalleren.rst
+   5-extra/ExtraOpdracht3.rst
+   5-extra/ExtraOpdracht2.rst
+   5-extra/ExtraOpdracht1.rst

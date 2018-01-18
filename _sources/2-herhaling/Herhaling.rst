@@ -3,10 +3,8 @@ Herhaling
 
 Je hebt als het goed is net een programma gemaakt waarmee je tina een vierkant laat tekenen; dat zag er waarschijnlijk ongeveer als volgt uit:
 
-.. activecode:: vb-od-square
-   :caption: Een vierkant met zijde 100
-   :nocodelens:
-   :language: python
+
+.. code-block:: python
 
    import turtle
    tina = turtle.Turtle()
@@ -22,11 +20,15 @@ Je hebt als het goed is net een programma gemaakt waarmee je tina een vierkant l
    tina.right(90)
 
 Merk op dat de twee commando's ``tina.forward(100)`` en ``tina.right(90)`` vier keer worden herhaald!
-Dit kunnen we overzichtelijker en efficienter opschrijven door gebruik te maken van een *herhaalinstructie*; dit wordt ook wel een *loop* (het Engelse voor lus) genoemd.
+Dit kunnen we korter opschrijven door gebruik te maken van een *herhaalinstructie*; dit wordt ook wel een *loop* (het Engelse woord voor lus) genoemd.
 
-We schrijven dan ``for i in range():``, het getal dat je dan tussen de haakjes zet is het aantal keer dat de daaropvolgende commando's worden herhaald.
+We schrijven dan ``for i in range():`` voor de commando's die we herhaald willen hebben; het getal dat je dan tussen de haakjes zet is het aantal keer dat de commando's worden herhaald.
 
-.. activecode:: vb-iteration-square2
+In dit geval willen we ``tina.right(90)`` en ``tina.forward(100)`` allebei vier keer herhaald worden. We plaatsen dan na ``for i in range(4):`` deze twee commando's. Om aan te geven wat er herhaald wordt plaatsen we voor die commando's vier spaties, dit noem je *inspringen*.
+
+Voer onderstaande code uit en ga daarna door naar de volgende pagina.
+
+.. activecode:: vb-iteration-square
    :caption: Een vierkant met zijde 100 *met herhaling*
    :nocodelens:
    :language: python
@@ -38,6 +40,3 @@ We schrijven dan ``for i in range():``, het getal dat je dan tussen de haakjes z
    for i in range(4):
        tina.forward(100)
        tina.right(90)
-
-
-De for-opdracht zorgt ervoor dat de twee opdrachten eronder vier keer worden uitgevoerd. Als er ``for i in range (14)`` zou staan bijvoorbeeld, dan zouden die twee opdrachten 14 keer worden herhaald. Let wel op dat je eerst 4 spaties plaatst voor de opdrachten die herhaald moeten worden, dit noem je *inspringen*.

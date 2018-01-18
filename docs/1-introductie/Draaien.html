@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="../_static/modal-basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/clickable.css" type="text/css" />
     <link rel="stylesheet" href="../_static/poll.css" type="text/css" />
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/2.3.1/""/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
@@ -118,7 +117,7 @@
   eBookConfig.useRunestoneServices = false;
   eBookConfig.python3 = false;
   eBookConfig.basecourse = 'ippt';
-  eBookConfig.runestone_version = '3.0.7.15';
+  eBookConfig.runestone_version = '3.0.7';
 </script>
 
 <!--
@@ -281,9 +280,9 @@
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - 4. Programmeren' data-toggle="tooltip" >
+  <li id="relations-next" title='Next Chapter - 4. Programmeren' data-toggle="tooltip" >              
     <a href="Programmeren.html" >
-      <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
+        <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
   </li>
   <li class="divider-vertical"></li>
@@ -316,10 +315,16 @@
 <h1>3. Draaien<a class="headerlink" href="#draaien" title="Permalink naar deze titel">¶</a></h1>
 <p>Als we ergens naartoe willen gaan dan kunnen we natuurlijk niet alleen voor- of achteruit, dan zullen we ook moeten draaien. Je kunt tina vertellen om naar rechts te draaien met het commando <code class="docutils literal"><span class="pre">tina.right()</span></code>. Je geeft dan tussen haakjes aan hoeveel <em>graden</em> je wilt draaien.</p>
 <p>Een heel rondje is 360 graden, dus als je een kwartslag naar rechts wilt gebruik je <code class="docutils literal"><span class="pre">tina.right(90)</span></code>.</p>
+<p>Pas de code nu aan opdat tina precies omdraait.</p>
+<p>Als je naar rechts kan draaien, dan kun je uiteraard ook naar links draaien. Dat doe je met de functie <code class="docutils literal"><span class="pre">tina.left</span></code>. Pas de code nu aan zodat tina een bocht naar links maakt.</p>
+<p>Als je door blijft draaien kom je uiteindelijk weer in je originele positie terecht. Pas de code nu zo aan dat tina eigenlijk 90 graden <em>naar rechts</em> gedraaid is. Ga daarna door naar de volgende pagina.</p>
 
 <div data-childcomponent="od-vb_tina.right" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=od-vb_tina.right data-lang="python"    data-timelimit=25000    data-audio=''     data-caption='Rechts afslaan'>
+<textarea data-component="activecode" id=od-vb_tina.right data-lang="python" 
+      data-timelimit=25000   
+    data-audio=''   
+         data-caption='Rechts afslaan'>
 import turtle
 tina = turtle.Turtle()
 tina.shape("turtle")
@@ -327,23 +332,6 @@ tina.shape("turtle")
 tina.right(90)
 </textarea>
 </div>
-<p>Pas de code nu aan opdat tina precies omdraait.</p>
-<p>Als je naar rechts kan draaien, dan kun je uiteraard ook naar links draaien. Dat doe je met de functie <code class="docutils literal"><span class="pre">left</span></code>.</p>
-
-<div data-childcomponent="od-vb_tina.left" class="runestone explainer ac_section alert alert-warning">
-
-<textarea data-component="activecode" id=od-vb_tina.left data-lang="python"    data-timelimit=25000    data-audio=''     data-caption='Links afslaan'>
-import turtle
-tina = turtle.Turtle()
-tina.shape("turtle")
-
-tina.left(90)
-</textarea>
-</div>
-<p>Als je door blijft draaien kom je uiteindelijk weer in je originele positie terecht. Pas het getal van <a href="#id1"><span class="problematic" id="id2">``</span></a>tina.left'' zo aan dat tina eigenlijk 90 graden <em>naar rechts</em> gedraaid is.</p>
-<div class="system-message" id="id1">
-<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/home/cagedev/sync/git/ippt-od/_sources/1-introductie/Draaien.rst</tt>, line 42); <em><a href="#id2">backlink</a></em></p>
-Inline literal start-string without end-string.</div>
 </div>
 
 
@@ -351,14 +339,18 @@ Inline literal start-string without end-string.</div>
       
   <li id="relations-prev" class="navLink" title='Previous Section - 2. Rechte lijnen tekenen' data-toggle="tooltip">
     <a href="RechteLijnenTekenen.html" >
-      <i class='prevNav glyphicon glyphicon-chevron-left'></i>
+        <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+            <i class='prevNav glyphicon glyphicon-chevron-left' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+        </div>
     </a>
   </li>
   <a class="navLinkBg" id="navLinkBgLeft"  href="RechteLijnenTekenen.html" ></a>
   
   <li id="relations-next" class="navLink" title='Next Section - 4. Programmeren' data-toggle="tooltip" >
     <a href="Programmeren.html" >
-      <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right'></i>
+      <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+          <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+      </div>
     </a>
   </li>
   <a class="navLinkBg navLink" id="navLinkBgRight" href="Programmeren.html" >Next Section - 4. Programmeren</a>

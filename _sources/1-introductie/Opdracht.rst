@@ -4,23 +4,24 @@ Opdracht
 Overzicht commando's
 --------------------
 
-``tina.forward(<afstand>)``
-  beweeg tina <afstand> stappen naar voren
-``tina.backward(<afstand>)``
-  beweeg tina <afstand> stappen naar achteren
-``tina.left(<hoek>)``
-  draai tina <hoek> graden naar links
-``tina.right(<hoek>)``
-  draai tina <hoek> graden naar rechts
+``tina.forward(`` afstand ``)``
+  beweeg tina **afstand** stappen naar voren
+``tina.backward(`` afstand> ``)``
+  beweeg tina **afstand** stappen naar achteren
+``tina.left(`` hoek ``)``
+  draai tina **hoek** graden naar links
+``tina.right(`` hoek ``)``
+  draai tina **hoek** graden naar rechts
 
 Opdracht: Teken een vierkant
 ----------------------------
 
-Hieronder staan een beginnetje van een programma en een voorbeeldfiguur. Pas de code op aan zodat tina de figuur tekent. 
+Hieronder staan een beginnetje van een programma en een voorbeeldfiguur. Pas de code aan opdat tina de figuur tekent. Als je klaar bent kun je met de Download je programma downloaden (je moet dan wel daarna op "Behouden" klikken).
 
-.. image:: images/square-200.png
 
-.. activecode:: oefen-statements-square
+.. image:: images/square-150.png
+
+.. activecode:: opdracht-vierkant
    :caption: Vierkant
    :nocodelens:
    :language: python
@@ -30,5 +31,5 @@ Hieronder staan een beginnetje van een programma en een voorbeeldfiguur. Pas de 
    tina = turtle.Turtle()
    tina.shape("turtle")
 
-   tina.forward(200)
-   tina.left(90)
+   tina.forward(150)
+   tina.right(90)

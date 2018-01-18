@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="../_static/modal-basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/clickable.css" type="text/css" />
     <link rel="stylesheet" href="../_static/poll.css" type="text/css" />
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/2.3.1/""/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
@@ -118,7 +117,7 @@
   eBookConfig.useRunestoneServices = false;
   eBookConfig.python3 = false;
   eBookConfig.basecourse = 'ippt';
-  eBookConfig.runestone_version = '3.0.7.15';
+  eBookConfig.runestone_version = '3.0.7';
 </script>
 
 <!--
@@ -212,9 +211,9 @@
             <i class="glyphicon glyphicon-search" style='opacity:0.9;'></i>
           </a>
           <ul class='dropdown-menu'>
-
+            
                 <li><a href='../index.html'>Table of Contents</a></li>
-
+            
             <li><a href='/runestone/static/ippt/genindex.html'>Book Index</a></li>
             <li class="divider"></li>
             <li id="scratch_ac_link"><a href="javascript:ACFactory.toggleScratchActivecode()">Scratch ActiveCode</a></li>
@@ -239,7 +238,7 @@
 
         <li class="divider-vertical"></li>
 
-
+        
         <li class="divider-vertical"></li>
 
         <!-- help menu dropdown -->
@@ -276,18 +275,18 @@
 </ul>
 </li>
           <li class="divider-vertical"></li>
-
-
-
+        
+        
+          
   <li id="relations-prev" title="Previous Chapter - 4. Programmeren" data-toggle="tooltip">
     <a href="Programmeren.html" >
       <i class='glyphicon glyphicon-backward' style='opacity:0.9;'></i>
     </a>
   </li>
-
-  <li id="relations-next" title='Next Chapter - 6. Herhaling' data-toggle="tooltip" >
+  
+  <li id="relations-next" title='Next Chapter - 6. Herhaling' data-toggle="tooltip" >              
     <a href="../2-herhaling/Herhaling.html" >
-      <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
+        <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
   </li>
   <li class="divider-vertical"></li>
@@ -302,9 +301,9 @@
   $('#relations-next').tooltip(opts);
 </script>
         -->
-
+        
           <li></li>
-
+        
       </ul>
 
     </div>
@@ -315,54 +314,61 @@
 <div class="container" id="continue-reading"></div>
 
 <div class="container" id="main-content">
-
+  
   <div class="section" id="opdracht">
 <h1>5. Opdracht<a class="headerlink" href="#opdracht" title="Permalink naar deze titel">¶</a></h1>
 <div class="section" id="overzicht-commando-s">
 <h2>5.1. Overzicht commando's<a class="headerlink" href="#overzicht-commando-s" title="Permalink naar deze titel">¶</a></h2>
 <dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">tina.forward(&lt;afstand&gt;)</span></code></dt>
-<dd>beweeg tina &lt;afstand&gt; stappen naar voren</dd>
-<dt><code class="docutils literal"><span class="pre">tina.backward(&lt;afstand&gt;)</span></code></dt>
-<dd>beweeg tina &lt;afstand&gt; stappen naar achteren</dd>
-<dt><code class="docutils literal"><span class="pre">tina.left(&lt;hoek&gt;)</span></code></dt>
-<dd>draai tina &lt;hoek&gt; graden naar links</dd>
-<dt><code class="docutils literal"><span class="pre">tina.right(&lt;hoek&gt;)</span></code></dt>
-<dd>draai tina &lt;hoek&gt; graden naar rechts</dd>
+<dt><code class="docutils literal"><span class="pre">tina.forward(</span></code> afstand <code class="docutils literal"><span class="pre">)</span></code></dt>
+<dd>beweeg tina <strong>afstand</strong> stappen naar voren</dd>
+<dt><code class="docutils literal"><span class="pre">tina.backward(</span></code> afstand&gt; <code class="docutils literal"><span class="pre">)</span></code></dt>
+<dd>beweeg tina <strong>afstand</strong> stappen naar achteren</dd>
+<dt><code class="docutils literal"><span class="pre">tina.left(</span></code> hoek <code class="docutils literal"><span class="pre">)</span></code></dt>
+<dd>draai tina <strong>hoek</strong> graden naar links</dd>
+<dt><code class="docutils literal"><span class="pre">tina.right(</span></code> hoek <code class="docutils literal"><span class="pre">)</span></code></dt>
+<dd>draai tina <strong>hoek</strong> graden naar rechts</dd>
 </dl>
 </div>
 <div class="section" id="opdracht-teken-een-vierkant">
 <h2>5.2. Opdracht: Teken een vierkant<a class="headerlink" href="#opdracht-teken-een-vierkant" title="Permalink naar deze titel">¶</a></h2>
-<p>Hieronder staan een beginnetje van een programma en een voorbeeldfiguur. Pas de code op aan zodat tina de figuur tekent.</p>
-<img alt="../_images/square-200.png" src="../_images/square-200.png" />
+<p>Hieronder staan een beginnetje van een programma en een voorbeeldfiguur. Pas de code aan opdat tina de figuur tekent. Als je klaar bent kun je met de Download je programma downloaden (je moet dan wel daarna op &quot;Behouden&quot; klikken).</p>
+<img alt="1-introductie/images/square-150.png" src="1-introductie/images/square-150.png" />
 
-<div data-childcomponent="oefen-statements-square" class="runestone explainer ac_section alert alert-warning">
+<div data-childcomponent="opdracht-vierkant" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=oefen-statements-square data-lang="python"    data-timelimit=25000   data-enabledownload="true" data-audio=''     data-caption='Vierkant'>
+<textarea data-component="activecode" id=opdracht-vierkant data-lang="python" 
+      data-timelimit=25000   data-enabledownload="true"
+    data-audio=''   
+         data-caption='Vierkant'>
 import turtle
 tina = turtle.Turtle()
 tina.shape("turtle")
 
-tina.forward(200)
-tina.left(90)
+tina.forward(150)
+tina.right(90)
 </textarea>
-
 </div>
 </div>
 </div>
 
 
-
+  
+      
   <li id="relations-prev" class="navLink" title='Previous Section - 4. Programmeren' data-toggle="tooltip">
     <a href="Programmeren.html" >
-      <i class='prevNav glyphicon glyphicon-chevron-left'></i>
+        <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+            <i class='prevNav glyphicon glyphicon-chevron-left' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+        </div>
     </a>
   </li>
   <a class="navLinkBg" id="navLinkBgLeft"  href="Programmeren.html" ></a>
-
+  
   <li id="relations-next" class="navLink" title='Next Section - 6. Herhaling' data-toggle="tooltip" >
     <a href="../2-herhaling/Herhaling.html" >
-      <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right'></i>
+      <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+          <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+      </div>
     </a>
   </li>
   <a class="navLinkBg navLink" id="navLinkBgRight" href="../2-herhaling/Herhaling.html" >Next Section - 6. Herhaling</a>
@@ -371,19 +377,16 @@ tina.left(90)
 
   $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
   $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
-
+  
 </script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="../../../gsdb/gsdb-handin.js"></script>
-
+  
 </div>
 <footer class="footer">
   <div class="container">
     <p class="pull-right">
-
+      
       | <a href="#">Back to top</a>
-
+      
     </p>
     <p>
     </p>

@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="../_static/modal-basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/clickable.css" type="text/css" />
     <link rel="stylesheet" href="../_static/poll.css" type="text/css" />
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/2.3.1/""/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
@@ -118,7 +117,7 @@
   eBookConfig.useRunestoneServices = false;
   eBookConfig.python3 = false;
   eBookConfig.basecourse = 'ippt';
-  eBookConfig.runestone_version = '3.0.7.15';
+  eBookConfig.runestone_version = '3.0.7';
 </script>
 
 <!--
@@ -281,9 +280,9 @@
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - 5. Opdracht' data-toggle="tooltip" >
+  <li id="relations-next" title='Next Chapter - 5. Opdracht' data-toggle="tooltip" >              
     <a href="Opdracht.html" >
-      <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
+        <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
   </li>
   <li class="divider-vertical"></li>
@@ -315,11 +314,14 @@
   <div class="section" id="programmeren">
 <h1>4. Programmeren<a class="headerlink" href="#programmeren" title="Permalink naar deze titel">¶</a></h1>
 <p>Een eenvoudige definitie van programmeren is dat je de computer meerdere opdrachten geeft die hij achter elkaar dient uit te voeren.</p>
-<p>Hieronder een eerste programma dat je in Python kan uitvoeren:</p>
+<p>Bedenk wat het programma hieronder zal doen en voer het dan uit om te zien of je gelijk had. Ga daarna door naar de volgende pagina.</p>
 
 <div data-childcomponent="vb-statements-prog" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=vb-statements-prog data-lang="python"    data-timelimit=25000    data-audio=''     data-caption='Tina volgt een pad'>
+<textarea data-component="activecode" id=vb-statements-prog data-lang="python" 
+      data-timelimit=25000   
+    data-audio=''   
+         data-caption='Tina volgt een pad'>
 import turtle
 tina = turtle.Turtle()
 tina.shape("turtle")
@@ -343,14 +345,18 @@ tina.forward(25)
       
   <li id="relations-prev" class="navLink" title='Previous Section - 3. Draaien' data-toggle="tooltip">
     <a href="Draaien.html" >
-      <i class='prevNav glyphicon glyphicon-chevron-left'></i>
+        <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+            <i class='prevNav glyphicon glyphicon-chevron-left' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+        </div>
     </a>
   </li>
   <a class="navLinkBg" id="navLinkBgLeft"  href="Draaien.html" ></a>
   
   <li id="relations-next" class="navLink" title='Next Section - 5. Opdracht' data-toggle="tooltip" >
     <a href="Opdracht.html" >
-      <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right'></i>
+      <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+          <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+      </div>
     </a>
   </li>
   <a class="navLinkBg navLink" id="navLinkBgRight" href="Opdracht.html" >Next Section - 5. Opdracht</a>

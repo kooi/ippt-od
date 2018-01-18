@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="../_static/modal-basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/clickable.css" type="text/css" />
     <link rel="stylesheet" href="../_static/poll.css" type="text/css" />
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootswatch/2.3.1/""/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/jquery-ui-1.10.3.custom.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
@@ -118,7 +117,7 @@
   eBookConfig.useRunestoneServices = false;
   eBookConfig.python3 = false;
   eBookConfig.basecourse = 'ippt';
-  eBookConfig.runestone_version = '3.0.7.15';
+  eBookConfig.runestone_version = '3.0.7';
 </script>
 
 <!--
@@ -281,9 +280,9 @@
     </a>
   </li>
   
-  <li id="relations-next" title='Next Chapter - 3. Draaien' data-toggle="tooltip" >
+  <li id="relations-next" title='Next Chapter - 3. Draaien' data-toggle="tooltip" >              
     <a href="Draaien.html" >
-      <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
+        <i class='glyphicon glyphicon-forward' style='opacity:0.9;'></i>
     </a>
   </li>
   <li class="divider-vertical"></li>
@@ -314,11 +313,16 @@
   
   <div class="section" id="rechte-lijnen-tekenen">
 <h1>2. Rechte lijnen tekenen<a class="headerlink" href="#rechte-lijnen-tekenen" title="Permalink naar deze titel">¶</a></h1>
-<p>Nu we tina hebben gemaakt is het tijd om tina wat te laten doen. Met de opdracht <code class="docutils literal"><span class="pre">forward(100)</span></code>, gaat tina 100 stappen vooruit. We moeten dan wel zeggen dat het tina is die 100 vooruit moet, dus dan wordt dit: <code class="docutils literal"><span class="pre">tina.forward(100)</span></code>.</p>
+<p>Nu we tina hebben gemaakt is het tijd om tina wat te laten doen. Met de opdracht <code class="docutils literal"><span class="pre">tina.forward(100)</span></code>, gaat tina 100 stappen vooruit.</p>
+<p>Voer de code uit met <code class="docutils literal"><span class="pre">Run</span></code>. Als je het de eerste keer niet goed kunt zien --het duurt soms even voordat tina zichtbaar wordt-- kun je de code altijd gewoon nog een keer met de uitvoeren.</p>
+<p>Je kunt tina natuurlijk ook achteruit laten lopen door <code class="docutils literal"><span class="pre">tina.backward</span></code> te gebruiken (i.p.v. <code class="docutils literal"><span class="pre">tina.forward</span></code>). Pas de voorbeeldcode zo aan dat tina nu 100 stappen achteruit loopt. Ga daarna door naar de volgende pagina.</p>
 
 <div data-childcomponent="od-vb_tina.forward" class="runestone explainer ac_section alert alert-warning">
 
-<textarea data-component="activecode" id=od-vb_tina.forward data-lang="python"    data-timelimit=25000    data-audio=''     data-caption='100 stappen vooruit'>
+<textarea data-component="activecode" id=od-vb_tina.forward data-lang="python" 
+      data-timelimit=25000   
+    data-audio=''   
+         data-caption='100 stappen vooruit'>
 import turtle
 tina = turtle.Turtle()
 tina.shape("turtle")
@@ -326,7 +330,6 @@ tina.shape("turtle")
 tina.forward(100)
 </textarea>
 </div>
-<p>Je kunt tina natuurlijk ook achteruit laten lopen door <code class="docutils literal"><span class="pre">tina.backward</span></code> te gebruiken (i.p.v. <code class="docutils literal"><span class="pre">tina.forward</span></code>). Pas de voorbeeldcode zo aan dat tina nu 100 stappen achteruit loopt.</p>
 </div>
 
 
@@ -334,14 +337,18 @@ tina.forward(100)
       
   <li id="relations-prev" class="navLink" title='Previous Section - 1. Tina' data-toggle="tooltip">
     <a href="Tina.html" >
-      <i class='prevNav glyphicon glyphicon-chevron-left'></i>
+        <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+            <i class='prevNav glyphicon glyphicon-chevron-left' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+        </div>
     </a>
   </li>
   <a class="navLinkBg" id="navLinkBgLeft"  href="Tina.html" ></a>
   
   <li id="relations-next" class="navLink" title='Next Section - 3. Draaien' data-toggle="tooltip" >
     <a href="Draaien.html" >
-      <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right'></i>
+      <div style="background-color: white; border-style:solid; border-color:lightgrey; border-width:2px; width:100px; height:50px">            
+          <i id="relationsNextIcon" class='nextNav glyphicon glyphicon-chevron-right' style="top:50%; transform:translateY(-50%)translateX(-50%); left: 50%;"></i>
+      </div>
     </a>
   </li>
   <a class="navLinkBg navLink" id="navLinkBgRight" href="Draaien.html" >Next Section - 3. Draaien</a>
