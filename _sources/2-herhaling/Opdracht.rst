@@ -17,19 +17,16 @@ Overzicht commando's
 
 Hieronder staan een aantal beginnetjes code en een voorbeeldfiguur. Pas de code telkens op zo'n manier aan dat de turtle de figuur tekent. De afmetingen staan in de figuur vermeld, die getallen hoef je er dus niet bij te zetten.
 
-Opdracht: Teken een vierkant
-----------------------------
+Opdracht: Teken een regelmatige zeshoek
+---------------------------------------
 
-.. code-block:: python
-
-   beetje matige opdracht, misschien wat anders? dit is het voorbeeld... (of een ander voorbeeld)
-   TOT HIER HERZIEN, NA 1930 verder (mis alleen het 150x150 plaatje)
+Teken een regelmatige zeshoek (elke hoek *in* de zeshoek is 120 graden, je moet dus telkens 60 graden draaien) met behulp van een loop. Als je klaar bent kun je met de Download je programma downloaden (je moet dan wel daarna op "Behouden" klikken).
 
 
-.. image:: images/square-200.png
+.. image:: images/hexagon.png
 
 .. activecode:: oefen-statements-square
-   :caption: Vierkant
+   :caption: Zeshoek
    :nocodelens:
    :language: python
    :enabledownload:
@@ -37,6 +34,3 @@ Opdracht: Teken een vierkant
    import turtle
    tina = turtle.Turtle()
    tina.shape("turtle")
-
-   tina.forward(200)
-   tina.left(90)

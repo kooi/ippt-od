@@ -10,13 +10,13 @@ Je hebt als het goed is net een programma gemaakt waarmee je tina een vierkant l
    tina = turtle.Turtle()
    tina.shape("turtle")
 
-   tina.forward(100)
+   tina.forward(150)
    tina.right(90)
-   tina.forward(100)
+   tina.forward(150)
    tina.right(90)
-   tina.forward(100)
+   tina.forward(150)
    tina.right(90)
-   tina.forward(100)
+   tina.forward(150)
    tina.right(90)
 
 Merk op dat de twee commando's ``tina.forward(100)`` en ``tina.right(90)`` vier keer worden herhaald!
@@ -38,5 +38,5 @@ Voer onderstaande code uit en ga daarna door naar de volgende pagina.
    tina.shape("turtle")
 
    for i in range(4):
-       tina.forward(100)
+       tina.forward(150)
        tina.right(90)
