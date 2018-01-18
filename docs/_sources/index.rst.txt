@@ -4,7 +4,7 @@ Inhoudsopgave
 .. _t_o_c:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :numbered:
 
    1-introductie/Tina.rst
