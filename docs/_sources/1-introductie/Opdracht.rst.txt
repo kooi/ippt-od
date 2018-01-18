@@ -1,5 +1,5 @@
-Opdracht
-::::::::
+Opdracht 1: Vierkant
+::::::::::::::::::::
 
 Overzicht commando's
 --------------------

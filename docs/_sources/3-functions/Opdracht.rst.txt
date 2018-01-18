@@ -1,5 +1,5 @@
-Opdracht
-::::::::
+Opdracht 3: Vierkant-functie
+::::::::::::::::::::::::::::
 
 Overzicht commando's
 --------------------

@@ -1,5 +1,5 @@
-Opdracht
-::::::::
+Opdracht 2: Zeshoek
+:::::::::::::::::::
 
 Overzicht commando's
 --------------------
