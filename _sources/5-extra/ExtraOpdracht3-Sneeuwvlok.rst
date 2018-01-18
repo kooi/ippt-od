@@ -1,5 +1,5 @@
-Challenge 1: Een sneeuwvlok
-:::::::::::::::::::::::::::
+Challenge 3: Een sneeuwvlok
+---------------------------
 
 Een sneeuwvlokje kun je maken door een paar parallellogrammen aan te plakken. Zie bijvoorbeeld:
 
@@ -10,6 +10,9 @@ Een sneeuwvlokje kun je maken door een paar parallellogrammen aan te plakken. Zi
 In het eerste plaatje zijn er zes parallellogrammen naast elkaar getekend (de turtle draait na elke parallellogram een aantal graden naar rechts en tekent vervolgens de volgende). Bij de volgende sneeuwvlok zijn het ook allemaal parallellogrammen die naast elkaar zijn getekend (je hoeft niet te tellen hoeveel dat er zijn ;))
 
 Maak eerst een functie ``sneeuwvlok`` die het linker plaatje tekent. De functie ``sneeuwvlok`` moet gebruik maken van de functie ``parallellogram`` die je van mij cadeau krijgt.
+
+Breid de functie sneeuwvlok uit door nog een parameter te gebruiken. Met deze tweede parameter kun je aangeven hoeveel parallellogrammen er in een sneeuwvlok moeten zitten. Dus als je ``sneeuwvlok(30, 6)`` uitvoert, dan maakt de turtle het eerste plaatje. Maar als je ``sneeuwvlok(30, 50)`` uitvoert, dan begint de turtle iets te maken wat op het tweede plaatje gaat lijken.
+
 
 .. activecode:: opg-functions-sneeuwvlok
    :caption: Nog meer huizen
@@ -32,6 +35,3 @@ Maak eerst een functie ``sneeuwvlok`` die het linker plaatje tekent. De functie 
        parallellogram(lengte)
 
    sneeuwvlok(30)
-
-
-Breid de functie sneeuwvlok uit door nog een parameter te gebruiken. Met deze tweede parameter kun je aangeven hoeveel parallellogrammen er in een sneeuwvlok moeten zitten. Dus als je ``sneeuwvlok(30, 6)`` uitvoert, dan maakt de turtle het eerste plaatje. Maar als je ``sneeuwvlok(30, 50)`` uitvoert, dan begint de turtle iets te maken wat op het tweede plaatje gaat lijken.
