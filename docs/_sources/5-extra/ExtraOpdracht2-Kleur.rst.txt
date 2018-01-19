@@ -12,7 +12,7 @@ Overzicht commando's
 
 ``tina.forward(`` afstand ``)``
   beweeg tina **afstand** stappen naar voren
-``tina.backward(`` afstand> ``)``
+``tina.backward(`` afstand ``)``
   beweeg tina **afstand** stappen naar achteren
 ``tina.left(`` hoek ``)``
   draai tina **hoek** graden naar links
@@ -38,7 +38,7 @@ Teken nu een huis met de turtle. Je mag de grootte en de kleur zelf bepalen, ond
 
 .. image:: images/huis.png
 
-.. activecode:: opg-statements-huis
+.. activecode:: challenge-huis
    :caption: Balans
    :nocodelens:
    :language: python

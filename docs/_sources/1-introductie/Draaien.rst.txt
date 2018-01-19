@@ -9,7 +9,7 @@ Pas de code nu aan opdat tina precies omdraait.
 
 Als je naar rechts kan draaien, dan kun je uiteraard ook naar links draaien. Dat doe je met de functie ``tina.left``. Pas de code nu aan zodat tina een bocht naar links maakt.
 
-Als je door blijft draaien kom je uiteindelijk weer in je originele positie terecht. Pas de code nu zo aan dat tina eigenlijk 90 graden *naar rechts* gedraaid is. Ga daarna door naar de volgende pagina.
+Als je door blijft draaien kom je uiteindelijk weer in je originele positie terecht. Pas de code nu zo aan mbv ``tina.left`` dat tina eigenlijk 90 graden *naar rechts* gedraaid is. Ga daarna door naar de volgende pagina.
 
 
 .. activecode:: od-vb_tina.right

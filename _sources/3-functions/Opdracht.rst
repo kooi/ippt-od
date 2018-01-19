@@ -1,12 +1,12 @@
-Opdracht 3: Vierkant-functie
-::::::::::::::::::::::::::::
+Opdracht: Vierkant-functie
+::::::::::::::::::::::::::
 
 Overzicht commando's
 --------------------
 
 ``tina.forward(`` afstand ``)``
   beweeg tina **afstand** stappen naar voren
-``tina.backward(`` afstand> ``)``
+``tina.backward(`` afstand ``)``
   beweeg tina **afstand** stappen naar achteren
 ``tina.left(`` hoek ``)``
   draai tina **hoek** graden naar links
@@ -39,12 +39,11 @@ Maak drie functies. Een functie genaamd ``vierkant100()`` die een vierkant met z
    vierkant150()
 
 wordt het onderstaande plaatje getekend.
-Als je klaar bent kun je met de Download je programma downloaden (je moet dan wel daarna op "Behouden" klikken).
 
 
 .. image:: images/functie-vierkanten.png
 
-.. activecode:: opg-functions-grotevierkanten
+.. activecode:: opgave-vierkanten
    :caption: Vierkantfuncties
    :nocodelens:
    :language: python

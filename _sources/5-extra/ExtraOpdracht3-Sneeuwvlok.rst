@@ -14,7 +14,7 @@ Maak eerst een functie ``sneeuwvlok`` die het linker plaatje tekent. De functie 
 Breid de functie sneeuwvlok uit door nog een parameter te gebruiken. Met deze tweede parameter kun je aangeven hoeveel parallellogrammen er in een sneeuwvlok moeten zitten. Dus als je ``sneeuwvlok(30, 6)`` uitvoert, dan maakt de turtle het eerste plaatje. Maar als je ``sneeuwvlok(30, 50)`` uitvoert, dan begint de turtle iets te maken wat op het tweede plaatje gaat lijken.
 
 
-.. activecode:: opg-functions-sneeuwvlok
+.. activecode:: challenge-sneeuwvlok
    :caption: Nog meer huizen
    :nocodelens:
    :language: python

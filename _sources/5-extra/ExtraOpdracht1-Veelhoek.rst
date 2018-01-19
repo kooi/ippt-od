@@ -5,7 +5,7 @@ Maak nu het volgende figuur na. Belangrijk om te weten: Je begint met een drieho
 
 .. image:: images/polygon.png
 
-.. activecode:: opg-counters-polygon
+.. activecode:: challenge-polygon
    :caption: Polygon
    :nocodelens:
    :language: python

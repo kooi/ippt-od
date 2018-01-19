@@ -1,12 +1,12 @@
-Opdracht 2: Zeshoek
-:::::::::::::::::::
+Opdracht: Zeshoek
+:::::::::::::::::
 
 Overzicht commando's
 --------------------
 
 ``tina.forward(`` afstand ``)``
   beweeg tina **afstand** stappen naar voren
-``tina.backward(`` afstand> ``)``
+``tina.backward(`` afstand ``)``
   beweeg tina **afstand** stappen naar achteren
 ``tina.left(`` hoek ``)``
   draai tina **hoek** graden naar links
@@ -20,7 +20,7 @@ Hieronder staan een aantal beginnetjes code en een voorbeeldfiguur. Pas de code 
 Opdracht: Teken een regelmatige zeshoek
 ---------------------------------------
 
-Teken een regelmatige zeshoek (elke hoek *in* de zeshoek is 120 graden, je moet dus telkens 60 graden draaien) met behulp van een loop. Als je klaar bent kun je met de Download je programma downloaden (je moet dan wel daarna op "Behouden" klikken).
+Teken een regelmatige zeshoek (elke hoek *in* de zeshoek is 120 graden, je moet dus telkens 60 graden draaien) met behulp van een loop.
 
 
 .. image:: images/hexagon.png
