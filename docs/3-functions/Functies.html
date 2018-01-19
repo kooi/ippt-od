@@ -333,14 +333,9 @@ tina = turtle.Turtle()
 tina.shape("turtle")
 
 def vierkant():
-    tina.forward(40)
-    tina.right(90)
-    tina.forward(40)
-    tina.right(90)
-    tina.forward(40)
-    tina.right(90)
-    tina.forward(40)
-    tina.right(90)
+    for i in range(4):
+        tina.forward(100)
+        tina.right(90)
 
 for i in range(4):
     vierkant()

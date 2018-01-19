@@ -16,14 +16,9 @@ Probeer de onderstaande code maar eens uit en klik dan op de pijl om naar de vol
    tina.shape("turtle")
 
    def vierkant():
-       tina.forward(40)
-       tina.right(90)
-       tina.forward(40)
-       tina.right(90)
-       tina.forward(40)
-       tina.right(90)
-       tina.forward(40)
-       tina.right(90)
+       for i in range(4):
+           tina.forward(100)
+           tina.right(90)
 
    for i in range(4):
        vierkant()

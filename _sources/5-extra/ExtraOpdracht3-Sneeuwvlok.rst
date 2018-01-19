@@ -15,7 +15,7 @@ Breid de functie sneeuwvlok uit door nog een parameter te gebruiken. Met deze tw
 
 
 .. activecode:: challenge-sneeuwvlok
-   :caption: Nog meer huizen
+   :caption: 
    :nocodelens:
    :language: python
 

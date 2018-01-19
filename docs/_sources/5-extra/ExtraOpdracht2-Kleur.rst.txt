@@ -39,7 +39,7 @@ Teken nu een huis met de turtle. Je mag de grootte en de kleur zelf bepalen, ond
 .. image:: images/huis.png
 
 .. activecode:: challenge-huis
-   :caption: Balans
+   :caption: 
    :nocodelens:
    :language: python
    :enabledownload:
