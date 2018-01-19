@@ -18,7 +18,7 @@ Opdracht: Teken een vierkant
 
 Hieronder staan een beginnetje van een programma en een voorbeeldfiguur. Pas de code aan opdat tina de figuur tekent.
 
-*Tijdens de les moet je sommige opdrachten inleveren. In dat geval zou je met Download je code moeten downloaden en via moodle in moeten leveren. Vandoeg hoeft dat niet (maar het mag wel).*
+*Tijdens de les moet je sommige opdrachten inleveren. In dat geval zou je met Download je code moeten downloaden en via moodle in moeten leveren. Vandaag hoeft dat niet (maar het mag wel).*
 
 
 .. image:: images/square-150.png
