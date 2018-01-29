@@ -30,7 +30,7 @@ Zo kun je bijvoorbeeld nadat je de volgende code ingevoegd hebt een vierkant tek
 Opdracht: Teken een vierkant
 ----------------------------
 
-Maak drie functies. Een functie genaamd ``vierkant100()`` die een vierkant met zijden van 100 pixels tekent. Een functie genaamd ``vierkant125()`` die een vierkant met zijden van 150 pixels tekent. En een functie genaamd ``vierkant150()`` die een vierkant met zijden van 200 pixels tekent. Als je dan op het einde van je programma het volgende zet:
+Maak drie functies. Een functie genaamd ``vierkant100()`` die een vierkant met zijden van 100 pixels tekent. Een functie genaamd ``vierkant125()`` die een vierkant met zijden van 125 pixels tekent. En een functie genaamd ``vierkant150()`` die een vierkant met zijden van 150 pixels tekent. Als je dan op het einde van je programma het volgende zet:
 
 .. code-block:: python
 
