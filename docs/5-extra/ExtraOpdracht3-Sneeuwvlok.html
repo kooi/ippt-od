@@ -1,0 +1,412 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="Dutch">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+      14. Voorbeelden &#8212; Introductie Programmeren met Python Turtle
+    </title>
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../_static/bootstrap-3.0.0/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../_static/datafile.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/dragndrop.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/codemirror.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/activecode.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/fitb.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/parsons.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/lib/prettify.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/video.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/showEval.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/tabbedstuff.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pytutor.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/modal-basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/clickable.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/poll.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../_static/jquery-ui-1.10.3.custom.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../_static/bootstrap-sphinx.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../_static/user-highlights.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../_static/runestone-custom-sphinx-bootstrap.css"
+      type="text/css"
+    />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT: "../",
+        VERSION: "0.0",
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: ".html",
+        HAS_SOURCE: true,
+        SOURCELINK_SUFFIX: ".txt",
+      };
+    </script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/jquery.highlight.js"
+    ></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/timed_activecode.js"
+    ></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/timed_shortanswer.js"
+    ></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/jquery.ba-bbq.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../_static/jquery.jsPlumb-1.3.10-all-min.js"
+    ></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../_static/jquery-ui-1.10.3.custom.min.js"
+    ></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/bootstrap-3.0.0/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../_static/bootstrap-sphinx.js"
+    ></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/rangy-cssclassapplier.js"
+    ></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/jquery.idle-timer.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../_static/processing-1.4.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script
+      type="text/javascript"
+      src="../_static/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <link rel="shortcut icon" href="../_static/turtle_HrK_icon.ico" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Zoeken" href="../search.html" />
+    <link
+      rel="prev"
+      title="13. Challenge 2: Een tekening met kleur"
+      href="ExtraOpdracht2-Kleur.html"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <link
+      rel="shortcut icon"
+      href="/runestone/static/favicon.ico"
+      type="image/ico"
+    />
+
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = "http://127.0.0.1:8000"
+        ? "http://127.0.0.1:8000"
+        : "http://127.0.0.1:8000";
+      eBookConfig.app = eBookConfig.host + "/runestone";
+      eBookConfig.ajaxURL = eBookConfig.app + "/ajax/";
+      eBookConfig.course = "ippt";
+      eBookConfig.logLevel = 0;
+      eBookConfig.loginRequired = false;
+      eBookConfig.build_info = "unknown";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = false;
+      eBookConfig.basecourse = "ippt";
+      eBookConfig.runestone_version = "3.0.7";
+    </script>
+  </head>
+  <body>
+    <!-- Begin navbar -->
+    <div
+      id="navbar"
+      class="navbar navbar-default navbar-fixed-top"
+      role="navigation"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-ex1-collapse"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div>
+            <a
+              class="brand-logo"
+              style="
+                background: transparent
+                  url(&quot;../_static/img/logo_small.png&quot;) no-repeat 0px
+                  0px;
+              "
+              href="../index.html"
+              >&nbsp;
+            </a>
+            <a class="navbar-brand" href="../index.html"
+              >Introductie Programmeren met Python Turtle</a
+            >
+          </div>
+        </div>
+
+        <div class="navbar-collapse collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="divider-vertical"></li>
+
+            <li class="divider-vertical"></li>
+
+            <li id="scratch_ac_link">
+              <a href="javascript:ACFactory.toggleScratchActivecode()"
+                ><i class="glyphicon glyphicon-list-alt"></i
+              ></a>
+            </li>
+
+            <li class="divider-vertical"></li>
+
+            <li class="divider-vertical"></li>
+
+            <li class="divider-vertical"></li>
+          </ul>
+
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="continue-reading"></div>
+
+    <div class="container" id="main-content">
+      <div class="section" id="challenge-3-een-sneeuwvlok">
+        <h1>
+          14. Een paar voorbeelden<a
+            class="headerlink"
+            href="#challenge-3-een-sneeuwvlok"
+            title="Permalink naar deze titel"
+            >¶</a
+          >
+        </h1>
+        <p>Kies een voorbeeld uit het dropdown-menu hieronder.</p>
+
+        <div>
+          <select id="source-selection"></select>
+          <button id="load-script">Load</button>
+        </div>
+        <div id="description"></div>
+
+        <div
+          data-childcomponent="challenge-sneeuwvlok"
+          class="runestone explainer ac_section alert alert-warning"
+        >
+          <textarea
+            data-component="activecode"
+            id="challenge-sneeuwvlok"
+            data-lang="python"
+            data-timelimit="25000"
+            data-audio=""
+            data-caption=""
+          >
+import turtle
+tina = turtle.Turtle()
+tina.shape("turtle")
+tina.speed(10)
+</textarea
+          >
+        </div>
+      </div>
+
+      <li
+        id="relations-prev"
+        class="navLink"
+        title="Previous Section - 13. Challenge 2: Een tekening met kleur"
+        data-toggle="tooltip"
+      >
+        <a href="ExtraOpdracht2-Kleur.html">
+          <div
+            style="
+              background-color: #427e44;
+              border-style: solid;
+              border-color: lightgrey;
+              border-width: 2px;
+              width: 100px;
+              height: 50px;
+            "
+          >
+            <i
+              class="prevNav glyphicon glyphicon-chevron-left"
+              style="
+                top: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                left: 50%;
+                color: white;
+              "
+            ></i>
+          </div>
+        </a>
+      </li>
+      <a
+        class="navLinkBg"
+        id="navLinkBgLeft"
+        href="ExtraOpdracht2-Kleur.html"
+      ></a>
+
+      <script type="text/javascript">
+        $("#relations-prev").tooltip({
+          placement: "right",
+          selector: "",
+          delay: { show: 100, hide: 50 },
+        });
+        $("#relations-next").tooltip({
+          placement: "left",
+          selector: "",
+          delay: { show: 100, hide: 50 },
+        });
+      </script>
+      <script>
+        var external_imports = [
+          {
+            title: "Game of Life (v1)",
+            url: "https://raw.githubusercontent.com/kooi/python-turtle-snippets/refs/heads/master/gol_tina_2_.py",
+            description: "Een zgn. Cellular Automaton met Tina",
+          },
+          {
+            title: "Bezier Clicky",
+            url: "https://raw.githubusercontent.com/kooi/python-turtle-snippets/refs/heads/master/bezier-clicky.py",
+            description: "Klik even rond",
+          },
+          {
+            title: "Bezier Random",
+            url: "https://raw.githubusercontent.com/kooi/python-turtle-snippets/refs/heads/master/bezier-random.py",
+            description: "Een leuke tekening",
+          },
+        ];
+
+        document
+          .getElementById("load-script")
+          .addEventListener("click", (e) => {
+            var cf = document.getElementById("code");
+            let ss = document.getElementById("source-selection");
+            let dsc = document.getElementById("description");
+            console.log(ss.selectedOptions[0].value);
+
+            let xml = new XMLHttpRequest();
+            xml.open("GET", ss.selectedOptions[0].value, true);
+            xml.onload = function () {
+              if (this.status == 200) {
+                cf.value = this.responseText;
+                dsc.innerHTML =
+                  external_imports[ss.selectedIndex]["description"];
+                console.log(this.responseText);
+              }
+            };
+            xml.send();
+          });
+
+        window.addEventListener(
+          "load",
+          () => {
+            let ss = document.getElementById("source-selection");
+
+            external_imports.forEach((e) => {
+              let option = document.createElement("option");
+              option.text = e.title;
+              option.value = e.url;
+              ss.add(option);
+            });
+          },
+          { once: true },
+        );
+      </script>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="pull-right">| <a href="#">Back to top</a></p>
+        <p></p>
+      </div>
+    </footer>
+  </body>
+</html>
