@@ -368,7 +368,7 @@ tina.speed(10)
         document
           .getElementById("load-script")
           .addEventListener("click", (e) => {
-            var cf = document.getElementById("code");
+            // var cf = document.getElementById("code");
             let ss = document.getElementById("source-selection");
             let dsc = document.getElementById("description");
             console.log(ss.selectedOptions[0].value);
@@ -377,7 +377,10 @@ tina.speed(10)
             xml.open("GET", ss.selectedOptions[0].value, true);
             xml.onload = function () {
               if (this.status == 200) {
-                cf.value = this.responseText;
+                // cf.value = this.responseText;
+                edList["challenge-sneeuwvlok"].editor.setValue(
+                  this.responseText,
+                );
                 dsc.innerHTML =
                   external_imports[ss.selectedIndex]["description"];
                 console.log(this.responseText);
