@@ -272,11 +272,22 @@
         </h1>
         <p>Kies een voorbeeld uit het dropdown-menu hieronder.</p>
 
-        <div>
-          <select id="source-selection"></select>
-          <button id="load-script">Load</button>
+        <div class="input-group">
+          <select id="source-selection" class="form-control"></select>
+          <span class="input-group-btn">
+            <button
+              id="load-script"
+              class="btn btn-default"
+              style="margin: 0px"
+            >
+              Load
+            </button>
+          </span>
         </div>
-        <div id="description"></div>
+
+        <div id="description" class="section">
+          <p id="description-content"></p>
+        </div>
 
         <div
           data-childcomponent="challenge-sneeuwvlok"
@@ -370,7 +381,7 @@ tina.speed(10)
           .addEventListener("click", (e) => {
             // var cf = document.getElementById("code");
             let ss = document.getElementById("source-selection");
-            let dsc = document.getElementById("description");
+            let dsc = document.getElementById("description-content");
             console.log(ss.selectedOptions[0].value);
 
             let xml = new XMLHttpRequest();
